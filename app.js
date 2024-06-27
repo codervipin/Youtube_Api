@@ -43,7 +43,6 @@ prev.textContent = "Prev";
 let nextPageToken = "";
 let prevPageToken = "";
 
-
 next.addEventListener("click", () => handleClick(true, false));
 prev.addEventListener("click", () => handleClick(false, true));
 
